@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+*::after, *::before {
+    box-sizing: border-box;
+}
+span, a, label{
+    display: inline-block;
+}
+.a {
+    text-decoration: none;
+    color: red;
+    margin: 50px;
+    font-size: 80px;
+    position: relative;
+}
+.h2 {
+    margin: 0;
+    text-transform: uppercase;
+    animation: move 0.3s linear forwards 1;
+    display: none;
+}
+.aa {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    font-size: 80px;
+    animation: move 0.3s linear forwards 1;
+}
+@keyframes move {
+    0% {
+        transform: scale(1.7);
+    }   
+    10% {
+        transform: scale(1.7);
+    }
+    20% {
+        transform: scale(1.7);
+    }
+    30% {
+        transform: scale(1.7);
+    }
+    40% {
+        transform: scale(1.7);
+    }
+    50% {
+        transform: scale(1.7);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.ae {
+    display: block;
+}
